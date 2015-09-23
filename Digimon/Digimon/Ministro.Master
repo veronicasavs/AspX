@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Ministro.master.cs" Inherits="Digimon.Ministro" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src='../js/framework.js' type='text/javascript' DEFER></script>
+	<script src="../js/js_exemplo.js" type="text/javascript" DEFER></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div id="topbar" class="conteudo-meio">
+		<a href="UI013-Home-Ministro.jsp" id="logo" class="esquerda"><img src="../img/logoS2.png" alt="DigiMon"></a>
+		<ul id="menu-user" class="direita">
+			<li><a href="#" id="profile"></a></li>
+			<li><a href="#" id="config"></a></li>
+			<li class="maisDireita"><a href="#" id="logout"></a></li>
+		</ul>
+	</div>
+	
+	<div id="container" class="conteudo-meio">
+		<div id="sidemenu" class="esquerda">
+				<ul class="menu-ativo navigator">
+
+				<h3>Relatórios</h3> 
+
+						<li><a href="UI014-ConsultarRelatorio-Ministro.jsp">Consultar</a> 
+						</li>
+												
+				</ul>
+		</div>
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

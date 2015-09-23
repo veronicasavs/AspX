@@ -1,0 +1,5 @@
+c:\users\alunoinfnet\documents\visual studio 2012\Projects\Digimon\Digimon\bin\Digimon.dll
+c:\users\alunoinfnet\documents\visual studio 2012\Projects\Digimon\Digimon\bin\Digimon.pdb
+c:\users\alunoinfnet\documents\visual studio 2012\Projects\Digimon\Digimon\obj\Debug\Digimon.csprojResolveAssemblyReference.cache
+c:\users\alunoinfnet\documents\visual studio 2012\Projects\Digimon\Digimon\obj\Debug\Digimon.dll
+c:\users\alunoinfnet\documents\visual studio 2012\Projects\Digimon\Digimon\obj\Debug\Digimon.pdb
